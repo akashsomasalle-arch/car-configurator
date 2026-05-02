@@ -1,0 +1,281 @@
+{
+  "aventador": {
+    "model": { "file": "models/aventador.glb" },
+    "body_colors": {
+      "colors": [
+        { "name": "Rosso Mars", "value": "#BF0012" },
+        { "name": "Nero Aldebaran", "value": "#111111" },
+        { "name": "Arancio Atlas", "value": "#F77F21" },
+        { "name": "Arancio Argos", "value": "#FC4705" },
+        { "name": "Blu Cepheus", "value": "#4393E6" },
+        { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+      ],
+      "target": "Mt_Body"
+    },
+    "partial_wrap": {
+      "components": [
+        {
+          "name": "Hood",
+          "meshMatch": "Mesh_Hood_0",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        },
+        {
+          "name": "Roof",
+          "meshMatch": "Obj_RoofFrame",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        },
+        {
+          "name": "Side Skirts",
+          "meshMatch": "Mesh_Running_Board_0",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        },
+        {
+          "name": "Front Bumper",
+          "meshMatch": "Mesh_Bumper_Front_0",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        },
+        {
+          "name": "Rear Bumper",
+          "meshMatch": "Mesh_Bumper_Rear_0",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        },
+        {
+          "name": "Door",
+          "meshMatch": "Mesh_Door_LH_0",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        },
+        {
+          "name": "Fender",
+          "meshMatch": "Obj_Upper_Fender",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        },
+        {
+          "name": "Trunk",
+          "meshMatch": "Mesh_Boot_0",
+          "colors": [
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Nero Aldebaran", "value": "#111111" },
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+          ]
+        }
+      ]
+    },
+    "mirror_colors": {
+      "colors": [
+        { "name": "Rosso Mars", "value": "#BF0012" },
+        { "name": "Nero Aldebaran", "value": "#111111" },
+        { "name": "Arancio Atlas", "value": "#F77F21" },
+        { "name": "Arancio Argos", "value": "#FC4705" },
+        { "name": "Blu Cepheus", "value": "#4393E6" },
+        { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+      ],
+      "target": "Mt_MirrorCover"
+    },
+    "wheel_designs": {
+      "designs": [
+        {
+          "name": "Type A",
+          "value": "Obj_Rim_T0A",
+          "thumb": "wheel/tireA.png"
+        },
+        {
+          "name": "Type B",
+          "value": "Obj_Rim_T0B",
+          "thumb": "wheel/tireB.png"
+        }
+      ]
+    },
+    "wheel_colors": {
+      "colors": [
+        {
+          "name": "Black",
+          "value": "#000000"
+        },
+        {
+          "name": "Grey",
+          "value": "#4C5457"
+        },
+        {
+          "name": "Metalic",
+          "value": "#dddddd"
+        }
+      ],
+      "target": "Mt_AlloyWheels"
+    },
+    "caliper_colors": {
+      "colors": [
+        { "name": "Rosso Mars", "value": "#BF0012" },
+        { "name": "Nero Aldebaran", "value": "#111111" },
+        { "name": "Arancio Atlas", "value": "#F77F21" },
+        { "name": "Arancio Argos", "value": "#FC4705" },
+        { "name": "Blu Cepheus", "value": "#4393E6" },
+        { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+      ],
+      "target": "Mt_BrakeCaliper"
+    }
+  },
+
+  "bmw": {
+    "model": { "file": "models/bmw.glb" },
+    "body_colors": {
+      "colors": [
+        { "name": "Nero Aldebaran", "value": "#111111" },
+        { "name": "Arancio Atlas", "value": "#F77F21" },
+        { "name": "Arancio Argos", "value": "#FC4705" },
+        { "name": "Blu Cepheus", "value": "#4393E6" },
+        { "name": "Rosso Mars", "value": "#BF0012" },
+        { "name": "Bianco Monocerus", "value": "#F2F3F5" }
+      ],
+      "target": "Material_692"
+    },
+    "mirror_colors": {
+      "colors": [
+        { "name": "Arancio Atlas", "value": "#F77F21" },
+        { "name": "Arancio Argos", "value": "#FC4705" },
+        { "name": "Blu Cepheus", "value": "#4393E6" },
+        { "name": "Rosso Mars", "value": "#BF0012" },
+        { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+        { "name": "Nero Aldebaran", "value": "#111111" }
+      ],
+      "target": "Material_932"
+    },
+    "wheel_colors": {
+      "colors": [
+        { "name": "Arancio Atlas", "value": "#F77F21" },
+        { "name": "Arancio Argos", "value": "#FC4705" },
+        { "name": "Blu Cepheus", "value": "#4393E6" },
+        { "name": "Rosso Mars", "value": "#BF0012" },
+        { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+        { "name": "Nero Aldebaran", "value": "#111111" }
+      ],
+      "target": "Material_753"
+    },
+    "caliper_colors": {
+      "colors": [
+        { "name": "Arancio Atlas", "value": "#F77F21" },
+        { "name": "Arancio Argos", "value": "#FC4705" },
+        { "name": "Blu Cepheus", "value": "#4393E6" },
+        { "name": "Rosso Mars", "value": "#BF0012" },
+        { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+        { "name": "Nero Aldebaran", "value": "#111111" }
+      ],
+      "target": "Material_773"
+    },
+    "partial_wrap": {
+      "components": [
+        {
+          "name": "Hood",
+          "meshMatch": "Body_Material_#692_0",
+          "colors": [
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+            { "name": "Nero Aldebaran", "value": "#111111" }
+          ]
+        },
+        {
+          "name": "Bumpers",
+          "meshMatch": "bumpers_Material_#692_0",
+          "colors": [
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+            { "name": "Nero Aldebaran", "value": "#111111" }
+          ]
+        },
+        {
+          "name": "Driver Door",
+          "meshMatch": "Driver_Door_Material_#692_0",
+          "colors": [
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+            { "name": "Nero Aldebaran", "value": "#111111" }
+          ]
+        },
+        {
+          "name": "Pass. Door",
+          "meshMatch": "Passenger_Door_Material_#692_0",
+          "colors": [
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+            { "name": "Nero Aldebaran", "value": "#111111" }
+          ]
+        },
+        {
+          "name": "Side Skirts",
+          "meshMatch": "skirt_Material_#692_0",
+          "colors": [
+            { "name": "Arancio Atlas", "value": "#F77F21" },
+            { "name": "Arancio Argos", "value": "#FC4705" },
+            { "name": "Blu Cepheus", "value": "#4393E6" },
+            { "name": "Rosso Mars", "value": "#BF0012" },
+            { "name": "Bianco Monocerus", "value": "#F2F3F5" },
+            { "name": "Nero Aldebaran", "value": "#111111" }
+          ]
+        }
+      ]
+    }
+  }
+}
