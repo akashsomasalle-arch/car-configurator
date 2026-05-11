@@ -299,6 +299,177 @@
     }
   },
 
+  "tesla": {
+    "model":      { "file": "models/tesla.glb" },
+    "shadow_map": "textures/toyotacamry/shadowmap.png",
+    "textures": {
+      "ac_black":      "textures/tesla/AC_black.jpg",
+      "foglights":     "textures/tesla/FogLights.jpg",
+      "glass":         "textures/tesla/GLASS4.jpg",
+      "tyre":          "textures/tesla/Gomma_Base.jpg",
+      "lights_chrome": "textures/tesla/Lights_Chrome_Base_Color.jpg",
+      "lights_plastic":"textures/tesla/Lights_Plastic.jpg",
+      "red_light":     "textures/tesla/red_light.jpg",
+      "texture1":      "textures/tesla/texture1.png"
+    },
+    "materials": [
+      { "name": "T3_Chrome.001",        "color": "#ffffff", "roughness": 0.0,  "metalness": 1.0 },
+      { "name": "T3_Plastic",           "color": "#222222", "roughness": 0.4,  "metalness": 0.0 },
+      { "name": "T3_OCC_PLASTIC_Black", "color": "#111111", "roughness": 0.5,  "metalness": 0.0 },
+      { "name": "T3_Carpet",            "color": "#333333", "roughness": 0.2,  "metalness": 0.0 },
+      { "name": "T3_OC_Leather",        "color": "#1a1a1a", "roughness": 0.5,  "metalness": 0.0 },
+      { "name": "T3_Black_Glass",       "color": "#050505", "roughness": 0.3,  "metalness": 0.0, "transparent": true, "opacity": 0.6 },
+      { "name": "T3_Display",           "color": "#000000", "roughness": 0.4,  "metalness": 0.0 },
+      { "name": "T3_Emblem_Chrome",     "color": "#ffffff", "roughness": 0.3,  "metalness": 0.0 },
+      { "name": "T3_Chrome",            "color": "#ffffff", "roughness": 0.1,  "metalness": 1.0 },
+      { "name": "T3_HeadlightGlass",    "color": "#ffffff", "roughness": 1.0,  "metalness": 1.0, "transparent": true, "opacity": 0.3 },
+      { "name": "T3_Lights_Chrome",     "color": "#ffffff", "roughness": 0.3, "metalness": 0.0, "map": "lights_chrome" },
+      { "name": "T3_Front_FogLights",   "color": "#ffffff", "roughness": 0.7,  "metalness": 0.0, "map": "foglights" },
+      { "name": "T3_Black",             "color": "#111111", "roughness": 0.4,  "metalness": 0.0, "map": "ac_black" },
+      { "name": "T3_Glass",             "color": "#aaccff", "roughness": 0.1,  "metalness": 0.0, "transparent": true, "opacity": 0.25, "map": "glass" },
+      { "name": "T3_Glass_Headlights",  "color": "#ffffff", "roughness": 0.1,  "metalness": 1.0, "transparent": true, "opacity": 0.3 },
+      { "name": "Lights_Plastic",       "color": "#ffffff", "roughness": 0.6,  "metalness": 0.0, "map": "lights_plastic" },
+      { "name": "T3_Lights_Red_Glass",  "color": "#ff2200", "roughness": 0.1,  "metalness": 0.0, "transparent": true, "opacity": 0.85, "map": "red_light" },
+      { "name": "T3_Tyre",              "color": "#111111", "roughness": 1.0,  "metalness": 0.0, "map": "tyre" },
+      { "name": "T3_BrakeDisc",         "color": "#555555", "roughness": 1.0,  "metalness": 1.0 },
+      { "name": "CA_Windshield",        "color": "#aaccff", "roughness": 0.0,  "metalness": 0.4, "transparent": true, "opacity": 0.25 },
+      { "name": "CA_Windshield.001",    "color": "#aaccff", "roughness": 0.1,  "metalness": 1.0, "transparent": true, "opacity": 0.25 }
+    ],
+    "body_colors": {
+      "colors": [
+        { "name": "Nero Aldebaran",   "value": "#111111" },
+        { "name": "Bianco Monocerus", "value": "#f0f0f0" },
+        { "name": "Rosso Mars",       "value": "#c0392b" },
+        { "name": "Blu Cepheus",      "value": "#2e5fa3" },
+        { "name": "Argento Acheso",   "value": "#b0b0b0" },
+        { "name": "Grigio Telesto",   "value": "#6b6b6b" }
+      ],
+      "target": "T3_Paint"
+    },
+    "wheel_colors": {
+      "colors": [
+        { "name": "Nero Aldebaran",   "value": "#111111" },
+        { "name": "Grigio Telesto",   "value": "#4C5457" },
+        { "name": "Argento Acheso",   "value": "#dddddd" }
+      ],
+      "target": "T3_BlackGloss"
+    },
+    "caliper_colors": {
+      "colors": [
+        { "name": "Rosso Mars",       "value": "#c0392b" },
+        { "name": "Nero Aldebaran",   "value": "#111111" },
+        { "name": "Blu Cepheus",      "value": "#2e5fa3" },
+        { "name": "Oro Midas",        "value": "#c9a84c" }
+      ],
+      "target": "T3_RedGloss"
+    },
+    "window_tint": {
+      "targets": ["T3_Glass", "CA_Windshield", "CA_Windshield.001"]
+    },
+    "ceramic": {
+      "finishes": [
+        { "name": "None",         "roughness": 0.0,  "metalness": 0.0, "envMapIntensity": 1.0 },
+        { "name": "Gloss",        "roughness": 0.0,  "metalness": 0.0, "envMapIntensity": 2.5 },
+        { "name": "Satin",        "roughness": 0.15, "metalness": 0.0, "envMapIntensity": 1.8 },
+        { "name": "Matte",        "roughness": 0.45, "metalness": 0.0, "envMapIntensity": 0.8 },
+        { "name": "Chrome",       "roughness": 0.0,  "metalness": 1.0, "envMapIntensity": 3.0 },
+        { "name": "Matte Chrome", "roughness": 0.4,  "metalness": 1.0, "envMapIntensity": 1.5 }
+      ]
+    },
+    "partial_wrap": {
+      "components": [
+        { "name": "Hood",         "meshMatch": "GEO_Hood_SUB0",        "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Front Bumper", "meshMatch": "GEO_FrontBumper_SUB0", "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Rear Bumper",  "meshMatch": "GEO_RearBumper_SUB0",  "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Driver Door",  "meshMatch": "Door_L_ObjOff_SUB1",   "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Pass. Door",   "meshMatch": "GEO_Door_Right_SUB0",  "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Body",         "meshMatch": "GEO_Body_SUB0",        "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] }
+      ]
+    }
+  },
+
+  "toyotatacoma": {
+    "model":      { "file": "models/toyotatacoma.glb" },
+    "shadow_map": "textures/toyotacamry/shadowmap.png",
+    "textures": {
+      "plate":         "textures/toyotatacoma/plate.jpg",
+      "tyre":          "textures/toyotatacoma/tire.jpg",
+      "tyre_dm":       "textures/toyotatacoma/Tire_01_DM.jpg",
+      "turn_signal":   "textures/toyotatacoma/turn signal orange.jpg"
+    },
+    "materials": [
+      { "name": "TA_black gloss",          "color": "#111111", "roughness": 0.0,  "metalness": 0.2 },
+      { "name": "TA_black gloss.001",      "color": "#111111", "roughness": 0.0,  "metalness": 0.2 },
+      { "name": "TA_grey gloss",           "color": "#888888", "roughness": 0.6,  "metalness": 0.0 },
+      { "name": "TA_glass",               "color": "#aaccff", "roughness": 0.6,  "metalness": 0.0, "transparent": true, "opacity": 0.25 },
+      { "name": "TA_grey ",               "color": "#777777", "roughness": 0.6,  "metalness": 0.0 },
+      { "name": "TA_dark grey",           "color": "#333333", "roughness": 0.6,  "metalness": 0.1 },
+      { "name": "TA_CHROME_PLATE",        "color": "#ffffff", "roughness": 0.6,  "metalness": 0.0, "map": "plate" },
+      { "name": "TA_chrome gloss",        "color": "#ffffff", "roughness": 0.6,  "metalness": 0.0 },
+      { "name": "TA_turn signal orange",  "color": "#ff8800", "roughness": 0.6,  "metalness": 0.0, "transparent": true, "opacity": 0.85, "map": "turn_signal" },
+      { "name": "TA_chrome gloss_black",  "color": "#111111", "roughness": 0.6,  "metalness": 0.0 },
+      { "name": "TA_Red_glow",            "color": "#ff2200", "roughness": 0.6,  "metalness": 0.0, "transparent": true, "opacity": 0.9 },
+      { "name": "TA_ed light 2",          "color": "#ff2200", "roughness": 0.6,  "metalness": 0.0, "transparent": true, "opacity": 0.85 },
+      { "name": "TA_tire_mat",            "color": "#111111", "roughness": 0.9,  "metalness": 1.0, "map": "tyre" },
+      { "name": "TA_Brake",              "color": "#cc0000", "roughness": 0.6,  "metalness": 0.0 },
+      { "name": "TA_dark ",              "color": "#1a1a1a", "roughness": 0.6,  "metalness": 0.0 },
+      { "name": "TA_Clean Chrome Polished","color": "#ffffff", "roughness": 0.6, "metalness": 0.0 },
+      { "name": "TA_Chrome",             "color": "#ffffff", "roughness": 0.1,  "metalness": 1.0 },
+      { "name": "TA_BrakeDisc",          "color": "#555555", "roughness": 1.0,  "metalness": 1.0 },
+      { "name": "TA_glass black",        "color": "#050505", "roughness": 0.0,  "metalness": 0.6, "transparent": true, "opacity": 0.6 }
+    ],
+    "body_colors": {
+      "colors": [
+        { "name": "Nero Aldebaran",   "value": "#111111" },
+        { "name": "Bianco Monocerus", "value": "#f0f0f0" },
+        { "name": "Rosso Mars",       "value": "#c0392b" },
+        { "name": "Blu Cepheus",      "value": "#2e5fa3" },
+        { "name": "Argento Acheso",   "value": "#b0b0b0" },
+        { "name": "Grigio Telesto",   "value": "#6b6b6b" }
+      ],
+      "target": "TA_body"
+    },
+    "wheel_colors": {
+      "colors": [
+        { "name": "Nero Aldebaran",   "value": "#111111" },
+        { "name": "Grigio Telesto",   "value": "#4C5457" },
+        { "name": "Argento Acheso",   "value": "#dddddd" }
+      ],
+      "target": "TA_black gloss"
+    },
+    "caliper_colors": {
+      "colors": [
+        { "name": "Rosso Mars",       "value": "#c0392b" },
+        { "name": "Nero Aldebaran",   "value": "#111111" },
+        { "name": "Blu Cepheus",      "value": "#2e5fa3" },
+        { "name": "Oro Midas",        "value": "#c9a84c" }
+      ],
+      "target": "TA_Brake"
+    },
+    "window_tint": {
+      "targets": ["TA_glass", "TA_glass black"]
+    },
+    "ceramic": {
+      "finishes": [
+        { "name": "None",         "roughness": 0.0,  "metalness": 0.0, "envMapIntensity": 1.0 },
+        { "name": "Gloss",        "roughness": 0.0,  "metalness": 0.0, "envMapIntensity": 2.5 },
+        { "name": "Satin",        "roughness": 0.15, "metalness": 0.0, "envMapIntensity": 1.8 },
+        { "name": "Matte",        "roughness": 0.45, "metalness": 0.0, "envMapIntensity": 0.8 },
+        { "name": "Chrome",       "roughness": 0.0,  "metalness": 1.0, "envMapIntensity": 3.0 },
+        { "name": "Matte Chrome", "roughness": 0.4,  "metalness": 1.0, "envMapIntensity": 1.5 }
+      ]
+    },
+    "partial_wrap": {
+      "components": [
+        { "name": "Hood",        "meshMatch": "Mesh.015", "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Front Bumper","meshMatch": "Mesh.014", "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Rear Bumper", "meshMatch": "Mesh.031", "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Door L",     "meshMatch": "Mesh.029", "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] },
+        { "name": "Door R",     "meshMatch": "Mesh.028", "colors": [ { "name": "Nero Aldebaran", "value": "#111111" }, { "name": "Bianco Monocerus", "value": "#f0f0f0" }, { "name": "Rosso Mars", "value": "#c0392b" }, { "name": "Blu Cepheus", "value": "#2e5fa3" }, { "name": "Argento Acheso", "value": "#b0b0b0" }, { "name": "Grigio Telesto", "value": "#6b6b6b" } ] }
+      ]
+    }
+  },
+
   "toyotacamry": {
     "model":      { "file": "models/toyotacamry.glb" },
     "shadow_map": "textures/toyotacamry/shadowmap.png",
