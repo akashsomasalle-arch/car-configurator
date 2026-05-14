@@ -134,7 +134,7 @@ THREE.GLTFLoader = ( function () {
 
 			parser.parse( function ( scene, scenes, cameras, animations ) {
 
-				console.timeEnd( 'GLTFLoader' );
+				// console.timeEnd( 'GLTFLoader' );
 
 				var glTF = {
 					scene: scene,

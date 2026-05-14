@@ -368,7 +368,7 @@
           ]
         },
         {
-          "name": "Hood",
+          "name": "Front Bumper",
           "meshMatch": "HC_Bumper_Front",
           "colors": [
             { "name": "Crystal Black Pearl", "value": "#111111" },
@@ -442,6 +442,321 @@
             { "name": "Championship White", "value": "#f0f0f0" },
             { "name": "Rallye Red", "value": "#c0392b" },
             { "name": "Sonic Gray Pearl", "value": "#6b6b6b" }
+          ]
+        }
+      ]
+    }
+  },
+  "shelby650": {
+    "model": { "file": "models/shelby650.glb" },
+    "shadow_map": "textures/shelby650/shadowmap.png",
+    "textures": {
+      "tyre": "textures/shelby650/Shelby_SuperSnakeS650_2024_Wheel1A_DiffuseAOSO.png",
+      "logo": "textures/shelby650/BadgeA_DiffuseAOSO.png",
+      "fiber": "textures/shelby650/common_carbon05_black_diff.png",
+      "grill": "textures/shelby650/Grille1A_DiffuseAOSO.png",
+      "interior": "textures/shelby650/InteriorA_DiffuseAOSO.png",
+      "lights": "textures/shelby650/Shelby_SuperSnakeS650_2024_LightA_Diffuse.png",
+      "caliper": "textures/shelby650/Shelby_SuperSnakeS650_2024_CalliperA_Zone_Diffuse.png",
+      "wheel": "textures/shelby650/Shelby_SuperSnakeS650_2024_Wheel1A_DiffuseAOSO.png"
+    },
+    "materials": [
+      {
+        "name": "SH_black_shine",
+        "color": "#111111",
+        "roughness": 0.1,
+        "metalness": 0.0
+      },
+      {
+        "name": "SH_color_shade",
+        "color": "#222222",
+        "roughness": 0.4,
+        "metalness": 0.0
+      },
+      {
+        "name": "SH_mirror",
+        "color": "#ffffff",
+        "roughness": 0.0,
+        "metalness": 1.0
+      },
+      {
+        "name": "SH_logo",
+        "color": "#ffffff",
+        "roughness": 0.3,
+        "metalness": 0.0,
+        "map": "logo",
+        "transparent": true
+      },
+      {
+        "name": "SH_fiber",
+        "color": "#ffffff",
+        "roughness": 0.3,
+        "metalness": 0.0,
+        "map": "fiber"
+      },
+      {
+        "name": "SH_grill",
+        "color": "#ffffff",
+        "roughness": 0.5,
+        "metalness": 0.0,
+        "map": "grill"
+      },
+      {
+        "name": "SH_interior",
+        "color": "#ffffff",
+        "roughness": 0.5,
+        "metalness": 0.0,
+        "map": "interior"
+      },
+      {
+        "name": "SH_display",
+        "color": "#000000",
+        "roughness": 0.4,
+        "metalness": 0.0
+      },
+      {
+        "name": "SH_red_glass",
+        "color": "#ff2200",
+        "roughness": 0.1,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.85,
+        "map": "lights"
+      },
+      {
+        "name": "SH_dark_black",
+        "color": "#050505",
+        "roughness": 0.3,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.6
+      },
+      {
+        "name": "SH_Side_light",
+        "color": "#ffffff",
+        "roughness": 0.1,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.4
+      },
+      {
+        "name": "SH_shelby",
+        "color": "#ffffff",
+        "roughness": 0.3,
+        "metalness": 0.0
+      },
+      {
+        "name": "SH_stripe",
+        "color": "#ffffff",
+        "roughness": 0.3,
+        "metalness": 0.0
+      },
+      {
+        "name": "SH_tyre",
+        "color": "#111111",
+        "roughness": 1.0,
+        "metalness": 0.0,
+        "map": "tyre"
+      },
+      {
+        "name": "SH_Black_caliper",
+        "color": "#111111",
+        "roughness": 0.3,
+        "metalness": 0.0,
+        "map": "caliper"
+      },
+      {
+        "name": "SH_Windshield_Back",
+        "color": "#aaccff",
+        "roughness": 0.0,
+        "metalness": 0.4,
+        "transparent": true,
+        "opacity": 0.25
+      },
+      {
+        "name": "SH_Windshield_front",
+        "color": "#aaccff",
+        "roughness": 0.0,
+        "metalness": 0.4,
+        "transparent": true,
+        "opacity": 0.25
+      },
+      {
+        "name": "SH_Windshield_Main",
+        "color": "#aaccff",
+        "roughness": 0.0,
+        "metalness": 0.4,
+        "transparent": true,
+        "opacity": 0.25
+      }
+    ],
+    "body_colors": {
+      "colors": [
+        { "name": "Shadow Black", "value": "#101820" },
+        { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+        { "name": "Oxford White", "value": "#F4F6F0" },
+        { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+        { "name": "Race Red", "value": "#C8102E" },
+        { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
+      ],
+      "target": "SH_paint"
+    },
+    "wheel_colors": {
+      "colors": [
+        { "name": "Black", "value": "#111111" },
+        { "name": "Grey", "value": "#4C5457" },
+        { "name": "Metallic", "value": "#dddddd" }
+      ],
+      "target": "SH_Black_caliper"
+    },
+    "caliper_colors": {
+      "colors": [
+        { "name": "Red", "value": "#c0392b" },
+        { "name": "Black", "value": "#111111" },
+        { "name": "Blue", "value": "#2e5fa3" },
+        { "name": "Gold", "value": "#c9a84c" }
+      ],
+      "target": "SH_red_caliper"
+    },
+    "window_tint": {
+      "groups": [
+        { "name": "Windshield", "targets": ["SH_Windshield_Main"] },
+        { "name": "Front Windows", "targets": ["SH_Windshield_front"] },
+        { "name": "Rear Windows", "targets": ["SH_Windshield_Back"] },
+        {
+          "name": "All",
+          "targets": [
+            "SH_Windshield_Main",
+            "SH_Windshield_front",
+            "SH_Windshield_Back"
+          ]
+        }
+      ]
+    },
+    "ceramic": {
+      "finishes": [
+        {
+          "name": "None",
+          "roughness": 0.0,
+          "metalness": 0.0,
+          "envMapIntensity": 1.0
+        },
+        {
+          "name": "Gloss",
+          "roughness": 0.0,
+          "metalness": 0.0,
+          "envMapIntensity": 2.5
+        },
+        {
+          "name": "Satin",
+          "roughness": 0.15,
+          "metalness": 0.0,
+          "envMapIntensity": 1.8
+        },
+        {
+          "name": "Matte",
+          "roughness": 0.45,
+          "metalness": 0.0,
+          "envMapIntensity": 0.8
+        },
+        {
+          "name": "Chrome",
+          "roughness": 0.0,
+          "metalness": 1.0,
+          "envMapIntensity": 3.0
+        },
+        {
+          "name": "Matte Chrome",
+          "roughness": 0.4,
+          "metalness": 1.0,
+          "envMapIntensity": 1.5
+        }
+      ]
+    },
+    "partial_wrap": {
+      "components": [
+        {
+          "name": "Hood",
+          "meshMatch": "SH_hood",
+          "colors": [
+            { "name": "Shadow Black", "value": "#101820" },
+            { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+            { "name": "Oxford White", "value": "#F4F6F0" },
+            { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+            { "name": "Race Red", "value": "#C8102E" },
+            { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
+          ]
+        },
+        {
+          "name": "Front Bumper",
+          "meshMatch": "SH_Bumper_Front",
+          "colors": [
+            { "name": "Shadow Black", "value": "#101820" },
+            { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+            { "name": "Oxford White", "value": "#F4F6F0" },
+            { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+            { "name": "Race Red", "value": "#C8102E" },
+            { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
+          ]
+        },
+        {
+          "name": "Rear Bumper",
+          "meshMatch": "SH_Bumper_Rear",
+          "colors": [
+            { "name": "Shadow Black", "value": "#101820" },
+            { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+            { "name": "Oxford White", "value": "#F4F6F0" },
+            { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+            { "name": "Race Red", "value": "#C8102E" },
+            { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
+          ]
+        },
+        {
+          "name": "Door",
+          "meshMatch": "SH_Front_L_Door",
+          "colors": [
+            { "name": "Shadow Black", "value": "#101820" },
+            { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+            { "name": "Oxford White", "value": "#F4F6F0" },
+            { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+            { "name": "Race Red", "value": "#C8102E" },
+            { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
+          ]
+        },
+        {
+          "name": "Fender",
+          "meshMatch": "SH_Fender",
+          "colors": [
+            { "name": "Shadow Black", "value": "#101820" },
+            { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+            { "name": "Oxford White", "value": "#F4F6F0" },
+            { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+            { "name": "Race Red", "value": "#C8102E" },
+            { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
+          ]
+        },
+        {
+          "name": "Roof",
+          "meshMatch": "SH_Roof",
+          "colors": [
+            { "name": "Shadow Black", "value": "#101820" },
+            { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+            { "name": "Oxford White", "value": "#F4F6F0" },
+            { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+            { "name": "Race Red", "value": "#C8102E" },
+            { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
+          ]
+        },
+        {
+          "name": "Tailgate",
+          "meshMatch": "SH_Tailgate",
+          "colors": [
+            { "name": "Shadow Black", "value": "#101820" },
+            { "name": "Atlas Blue Metallic", "value": "#234A7D" },
+            { "name": "Oxford White", "value": "#F4F6F0" },
+            { "name": "Iconic Silver Metallic", "value": "#A7A8AA" },
+            { "name": "Race Red", "value": "#C8102E" },
+            { "name": "Rapid Red Metallic", "value": "#7B1E2B" }
           ]
         }
       ]
@@ -568,12 +883,12 @@
     ],
     "body_colors": {
       "colors": [
-        { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-        { "name": "Nero Aldebaran", "value": "#111111" },
-        { "name": "Argento Acheso", "value": "#b0b0b0" },
-        { "name": "Rosso Mars", "value": "#c0392b" },
-        { "name": "Blu Cepheus", "value": "#2e5fa3" },
-        { "name": "Grigio Telesto", "value": "#6b6b6b" }
+        { "name": "Attitude Black", "value": "#141513" },
+        { "name": "Cement Grey", "value": "#7d8289" },
+        { "name": "Dark Blue", "value": "#202E35" },
+        { "name": "Emotional Red", "value": "#70272D" },
+        { "name": "Platinum White", "value": "#f2f2f2" },
+        { "name": "Precious Metal", "value": "#707070" }
       ],
       "target": "CA_Paint"
     },
@@ -654,84 +969,84 @@
           "name": "Hood",
           "meshMatch": "CA_Hood",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Attitude Black", "value": "#141513" },
+            { "name": "Cement Grey", "value": "#7d8289" },
+            { "name": "Dark Blue", "value": "#202E35" },
+            { "name": "Emotional Red", "value": "#70272D" },
+            { "name": "Platinum White", "value": "#f2f2f2" },
+            { "name": "Precious Metal", "value": "#707070" }
           ]
         },
         {
           "name": "Front Bumper",
           "meshMatch": "CA_Bumper_Front",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Attitude Black", "value": "#141513" },
+            { "name": "Cement Grey", "value": "#7d8289" },
+            { "name": "Dark Blue", "value": "#202E35" },
+            { "name": "Emotional Red", "value": "#70272D" },
+            { "name": "Platinum White", "value": "#f2f2f2" },
+            { "name": "Precious Metal", "value": "#707070" }
           ]
         },
         {
           "name": "Rear Bumper",
           "meshMatch": "CA__Bumper_Rear",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Attitude Black", "value": "#141513" },
+            { "name": "Cement Grey", "value": "#7d8289" },
+            { "name": "Dark Blue", "value": "#202E35" },
+            { "name": "Emotional Red", "value": "#70272D" },
+            { "name": "Platinum White", "value": "#f2f2f2" },
+            { "name": "Precious Metal", "value": "#707070" }
           ]
         },
         {
           "name": "Door",
           "meshMatch": "CA_Door",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Attitude Black", "value": "#141513" },
+            { "name": "Cement Grey", "value": "#7d8289" },
+            { "name": "Dark Blue", "value": "#202E35" },
+            { "name": "Emotional Red", "value": "#70272D" },
+            { "name": "Platinum White", "value": "#f2f2f2" },
+            { "name": "Precious Metal", "value": "#707070" }
           ]
         },
         {
           "name": "Fender",
           "meshMatch": "CA_Fender",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Attitude Black", "value": "#141513" },
+            { "name": "Cement Grey", "value": "#7d8289" },
+            { "name": "Dark Blue", "value": "#202E35" },
+            { "name": "Emotional Red", "value": "#70272D" },
+            { "name": "Platinum White", "value": "#f2f2f2" },
+            { "name": "Precious Metal", "value": "#707070" }
           ]
         },
         {
           "name": "Roof",
           "meshMatch": "CA_Roof",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Attitude Black", "value": "#141513" },
+            { "name": "Cement Grey", "value": "#7d8289" },
+            { "name": "Dark Blue", "value": "#202E35" },
+            { "name": "Emotional Red", "value": "#70272D" },
+            { "name": "Platinum White", "value": "#f2f2f2" },
+            { "name": "Precious Metal", "value": "#707070" }
           ]
         },
         {
           "name": "Tailgate",
           "meshMatch": "CA_Tailgate",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Attitude Black", "value": "#141513" },
+            { "name": "Cement Grey", "value": "#7d8289" },
+            { "name": "Dark Blue", "value": "#202E35" },
+            { "name": "Emotional Red", "value": "#70272D" },
+            { "name": "Platinum White", "value": "#f2f2f2" },
+            { "name": "Precious Metal", "value": "#707070" }
           ]
         }
       ]
@@ -929,12 +1244,12 @@
     ],
     "body_colors": {
       "colors": [
-        { "name": "Nero Aldebaran", "value": "#111111" },
-        { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-        { "name": "Rosso Mars", "value": "#c0392b" },
-        { "name": "Blu Cepheus", "value": "#2e5fa3" },
-        { "name": "Argento Acheso", "value": "#b0b0b0" },
-        { "name": "Grigio Telesto", "value": "#6b6b6b" }
+        { "name": "Diamond Black", "value": "#111111" },
+        { "name": "Stealth Grey", "value": "#3A3D40" },
+        { "name": "Pearl White Multi-Coat", "value": "#F2F2F2" },
+        { "name": "Deep Blue Metallic", "value": "#182B49" },
+        { "name": "Ultra Red", "value": "#A10011" },
+        { "name": "Quicksilver", "value": "#9B9D9E" }
       ],
       "target": "T3_Paint"
     },
@@ -963,7 +1278,12 @@
         { "name": "Rear Windows", "targets": ["Windshield_Back"] },
         {
           "name": "All",
-          "targets": ["T3_Windshield_Main", "T3_Sunroof", "T3_Windshield_front", "Windshield_Back"]
+          "targets": [
+            "T3_Windshield_Main",
+            "T3_Sunroof",
+            "T3_Windshield_front",
+            "Windshield_Back"
+          ]
         }
       ]
     },
@@ -1013,72 +1333,431 @@
           "name": "Hood",
           "meshMatch": "T3_Hood",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Diamond Black", "value": "#111111" },
+            { "name": "Stealth Grey", "value": "#3A3D40" },
+            { "name": "Pearl White Multi-Coat", "value": "#F2F2F2" },
+            { "name": "Deep Blue Metallic", "value": "#182B49" },
+            { "name": "Ultra Red", "value": "#A10011" },
+            { "name": "Quicksilver", "value": "#9B9D9E" }
           ]
         },
         {
           "name": "Front Bumper",
           "meshMatch": "T3_Bumper_Front",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Diamond Black", "value": "#111111" },
+            { "name": "Stealth Grey", "value": "#3A3D40" },
+            { "name": "Pearl White Multi-Coat", "value": "#F2F2F2" },
+            { "name": "Deep Blue Metallic", "value": "#182B49" },
+            { "name": "Ultra Red", "value": "#A10011" },
+            { "name": "Quicksilver", "value": "#9B9D9E" }
           ]
         },
         {
           "name": "Rear Bumper",
           "meshMatch": "T3__Bumper_Rear",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Diamond Black", "value": "#111111" },
+            { "name": "Stealth Grey", "value": "#3A3D40" },
+            { "name": "Pearl White Multi-Coat", "value": "#F2F2F2" },
+            { "name": "Deep Blue Metallic", "value": "#182B49" },
+            { "name": "Ultra Red", "value": "#A10011" },
+            { "name": "Quicksilver", "value": "#9B9D9E" }
           ]
         },
         {
           "name": "Door",
           "meshMatch": "T3_Door",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Diamond Black", "value": "#111111" },
+            { "name": "Stealth Grey", "value": "#3A3D40" },
+            { "name": "Pearl White Multi-Coat", "value": "#F2F2F2" },
+            { "name": "Deep Blue Metallic", "value": "#182B49" },
+            { "name": "Ultra Red", "value": "#A10011" },
+            { "name": "Quicksilver", "value": "#9B9D9E" }
           ]
         },
         {
           "name": "Fender",
           "meshMatch": "T3_Fender",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Diamond Black", "value": "#111111" },
+            { "name": "Stealth Grey", "value": "#3A3D40" },
+            { "name": "Pearl White Multi-Coat", "value": "#F2F2F2" },
+            { "name": "Deep Blue Metallic", "value": "#182B49" },
+            { "name": "Ultra Red", "value": "#A10011" },
+            { "name": "Quicksilver", "value": "#9B9D9E" }
           ]
         },
         {
           "name": "Tailgate",
           "meshMatch": "T3_Tailgate",
           "colors": [
-            { "name": "Nero Aldebaran", "value": "#111111" },
-            { "name": "Bianco Monocerus", "value": "#f0f0f0" },
-            { "name": "Rosso Mars", "value": "#c0392b" },
-            { "name": "Blu Cepheus", "value": "#2e5fa3" },
-            { "name": "Argento Acheso", "value": "#b0b0b0" },
-            { "name": "Grigio Telesto", "value": "#6b6b6b" }
+            { "name": "Diamond Black", "value": "#111111" },
+            { "name": "Stealth Grey", "value": "#3A3D40" },
+            { "name": "Pearl White Multi-Coat", "value": "#F2F2F2" },
+            { "name": "Deep Blue Metallic", "value": "#182B49" },
+            { "name": "Ultra Red", "value": "#A10011" },
+            { "name": "Quicksilver", "value": "#9B9D9E" }
+          ]
+        }
+      ]
+    }
+  },
+  "toyotatacoma": {
+    "model": { "file": "models/toyotatacoma.glb" },
+    "shadow_map": "textures/toyotacamry/shadowmap.png",
+    "textures": {
+      "tyre": "textures/toyotatacoma/tire.jpg",
+      "plate": "textures/toyotatacoma/plate.jpg",
+      "turn_signal": "textures/toyotatacoma/turn signal orange.jpg"
+    },
+    "materials": [
+      {
+        "name": "TA_black gloss",
+        "color": "#111111",
+        "roughness": 0.15,
+        "metalness": 0.0
+      },
+      {
+        "name": "TA_black gloss.001",
+        "color": "#111111",
+        "roughness": 0.15,
+        "metalness": 0.0
+      },
+      {
+        "name": "TA_grey gloss",
+        "color": "#555555",
+        "roughness": 0.2,
+        "metalness": 0.0
+      },
+      {
+        "name": "TA_grey ",
+        "color": "#888888",
+        "roughness": 0.5,
+        "metalness": 0.0
+      },
+      {
+        "name": "TA_dark grey",
+        "color": "#333333",
+        "roughness": 0.5,
+        "metalness": 0.0
+      },
+      {
+        "name": "TA_dark ",
+        "color": "#222222",
+        "roughness": 0.5,
+        "metalness": 0.0
+      },
+      {
+        "name": "TA_CHROME_PLATE",
+        "color": "#ffffff",
+        "roughness": 0.1,
+        "metalness": 1.0,
+        "map": "plate"
+      },
+      {
+        "name": "TA_chrome gloss",
+        "color": "#ffffff",
+        "roughness": 0.05,
+        "metalness": 1.0
+      },
+      {
+        "name": "TA_chrome gloss_black",
+        "color": "#111111",
+        "roughness": 0.05,
+        "metalness": 1.0
+      },
+      {
+        "name": "TA_Chrome",
+        "color": "#ffffff",
+        "roughness": 0.1,
+        "metalness": 1.0
+      },
+      {
+        "name": "TA_Clean Chrome Polished",
+        "color": "#ffffff",
+        "roughness": 0.0,
+        "metalness": 1.0
+      },
+      {
+        "name": "TA_turn signal orange",
+        "color": "#ff8800",
+        "roughness": 0.3,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.8,
+        "map": "turn_signal"
+      },
+      {
+        "name": "TA_Red_glow",
+        "color": "#ff2200",
+        "roughness": 0.1,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.85
+      },
+      {
+        "name": "TA_ed light 2",
+        "color": "#ff2200",
+        "roughness": 0.1,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.7
+      },
+      {
+        "name": "TA_glass black",
+        "color": "#050505",
+        "roughness": 0.1,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.6
+      },
+      {
+        "name": "TA_BrakeDisc",
+        "color": "#555555",
+        "roughness": 1.0,
+        "metalness": 1.0
+      },
+      {
+        "name": "TA_tire_mat",
+        "color": "#111111",
+        "roughness": 1.0,
+        "metalness": 0.0,
+        "map": "tyre"
+      },
+      {
+        "name": "TA_sunroof",
+        "color": "#aaccff",
+        "roughness": 0.1,
+        "metalness": 0.0,
+        "transparent": true,
+        "opacity": 0.3
+      },
+      {
+        "name": "Windshield_Back",
+        "color": "#aaccff",
+        "roughness": 0.0,
+        "metalness": 0.4,
+        "transparent": true,
+        "opacity": 0.25
+      },
+      {
+        "name": "TA_Windshield_front",
+        "color": "#aaccff",
+        "roughness": 0.0,
+        "metalness": 0.4,
+        "transparent": true,
+        "opacity": 0.25
+      },
+      {
+        "name": "TA_Windshield_Main",
+        "color": "#aaccff",
+        "roughness": 0.0,
+        "metalness": 0.4,
+        "transparent": true,
+        "opacity": 0.25
+      }
+    ],
+    "body_colors": {
+      "colors": [
+        { "name": "Black", "value": "#0A0A0A" },
+        { "name": "Ice Cap", "value": "#F4F6F7" },
+        { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+        { "name": "Heritage Blue", "value": "#5D96BC" },
+        { "name": "Supersonic Red", "value": "#B0121A" },
+        { "name": "Bronze Oxide", "value": "#5B5645" },
+        { "name": "Mudbath", "value": "#7D7469" },
+        { "name": "Underground", "value": "#4A4E51" }
+      ],
+      "target": "TA_body"
+    },
+    "wheel_colors": {
+      "colors": [
+        { "name": "Black", "value": "#111111" },
+        { "name": "Grey", "value": "#4C5457" },
+        { "name": "Metallic", "value": "#dddddd" }
+      ],
+      "target": "TA_black gloss"
+    },
+    "caliper_colors": {
+      "colors": [
+        { "name": "Red", "value": "#c0392b" },
+        { "name": "Black", "value": "#111111" },
+        { "name": "Blue", "value": "#2e5fa3" },
+        { "name": "Gold", "value": "#c9a84c" }
+      ],
+      "target": "TA_Brake"
+    },
+    "window_tint": {
+      "groups": [
+        { "name": "Windshield", "targets": ["TA_Windshield_Main"] },
+        { "name": "Sunroof", "targets": ["TA_sunroof"] },
+        { "name": "Front Windows", "targets": ["TA_Windshield_front"] },
+        { "name": "Rear Windows", "targets": ["Windshield_Back"] },
+        {
+          "name": "All",
+          "targets": [
+            "TA_Windshield_Main",
+            "TA_sunroof",
+            "TA_Windshield_front",
+            "Windshield_Back"
+          ]
+        }
+      ]
+    },
+    "ceramic": {
+      "finishes": [
+        {
+          "name": "None",
+          "roughness": 0.0,
+          "metalness": 0.0,
+          "envMapIntensity": 1.0
+        },
+        {
+          "name": "Gloss",
+          "roughness": 0.0,
+          "metalness": 0.0,
+          "envMapIntensity": 2.5
+        },
+        {
+          "name": "Satin",
+          "roughness": 0.15,
+          "metalness": 0.0,
+          "envMapIntensity": 1.8
+        },
+        {
+          "name": "Matte",
+          "roughness": 0.45,
+          "metalness": 0.0,
+          "envMapIntensity": 0.8
+        },
+        {
+          "name": "Chrome",
+          "roughness": 0.0,
+          "metalness": 1.0,
+          "envMapIntensity": 3.0
+        },
+        {
+          "name": "Matte Chrome",
+          "roughness": 0.4,
+          "metalness": 1.0,
+          "envMapIntensity": 1.5
+        }
+      ]
+    },
+    "partial_wrap": {
+      "components": [
+        {
+          "name": "Hood",
+          "meshMatch": "TA_Hood",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
+          ]
+        },
+        {
+          "name": "Front Bumper",
+          "meshMatch": "TA_Bumper_Front",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
+          ]
+        },
+        {
+          "name": "Rear Bumper",
+          "meshMatch": "TA__Bumper_Rear",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
+          ]
+        },
+        {
+          "name": "Door",
+          "meshMatch": "TA_Door",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
+          ]
+        },
+        {
+          "name": "Fender",
+          "meshMatch": "TA_Fender",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
+          ]
+        },
+        {
+          "name": "Roof",
+          "meshMatch": "TA_Roof",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
+          ]
+        },
+        {
+          "name": "Tailgate",
+          "meshMatch": "TA_Tailgate",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
+          ]
+        },
+        {
+          "name": "Truck Bed",
+          "meshMatch": "TA_back",
+          "colors": [
+            { "name": "Black", "value": "#0A0A0A" },
+            { "name": "Ice Cap", "value": "#F4F6F7" },
+            { "name": "Celestial Silver Metallic", "value": "#A6ACAF" },
+            { "name": "Heritage Blue", "value": "#5D96BC" },
+            { "name": "Supersonic Red", "value": "#B0121A" },
+            { "name": "Bronze Oxide", "value": "#5B5645" },
+            { "name": "Mudbath", "value": "#7D7469" },
+            { "name": "Underground", "value": "#4A4E51" }
           ]
         }
       ]
